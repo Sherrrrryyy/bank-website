@@ -1,2 +1,16 @@
 @import "tailwindcss";
 
+/* This adds a slight zoom-out effect to cards as they stack */
+.sticky {
+  view-timeline-name: --item;
+}
+
+.sticky > div {
+  animation: scale linear both;
+  animation-timeline: --item;
+  animation-range: exit 0% exit 100%;
+}
+
+@keyframes scale {
+  to { transform: scale(0.9); opacity: 0.8; }
+}
