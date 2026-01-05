@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs";
+import Contact from "@/components/Contact";
 import FinincialTools from "@/components/FinincialTools";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
@@ -14,6 +15,7 @@ export default function Home() {
  <AboutUs />
  <WhyBank />
  <Secure />
+ <Contact />
  </>
   );
 }
