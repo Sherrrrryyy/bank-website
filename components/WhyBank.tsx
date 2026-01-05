@@ -43,7 +43,7 @@ const WhyBank = () => {
         <div>
           {points.map((point, index) => {
             return (
-              <div key={index} className="flex flex-col">
+              <div key={index} className="flex flex-col pb-15">
                 <div className="flex items-center">
                   <span className="text-4xl font-bold mr-5">{point.number}</span>
                   <h2 className="font-bold text-xl">{point.title}</h2>

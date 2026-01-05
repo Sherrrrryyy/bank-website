@@ -1,5 +1,5 @@
 import React from "react";
-import Button from '../components/Button'
+import Button from "../components/Button";
 
 const Contact = () => {
   return (
@@ -13,8 +13,7 @@ const Contact = () => {
             This is the space to introduce the Services section. Briefly
             describe the types of services offered.
           </p>
-        <Button type="button" title="Contact Us" variant="secondary" />
-          
+          <Button type="button" title="Contact Us" variant="secondary" />
         </div>
       </div>
     </section>
