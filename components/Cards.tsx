@@ -2,8 +2,6 @@ import React from "react";
 
 
 
-
-
 type CradsProps = {
   variant: "primary" | "secondary";
   title: string;

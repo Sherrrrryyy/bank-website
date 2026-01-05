@@ -4,7 +4,8 @@ import Cards from '../components/Cards'
 type ToolCard = {
   title: string;
   number: string;
-  variant: 'primary' | 'secondary';
+  variant: 'primary' | 'secondary',
+  paragraph: string;
 }
 
 const FinancialSection = () => {
