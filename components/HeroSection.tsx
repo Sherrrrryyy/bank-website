@@ -16,7 +16,7 @@ const HeroSection = () => {
         />
       </div>
 
-      <div className="relative z-10 mx-auto flex h-full max-w-6xl flex-col items-center justify-center px-6 text-center md:items-start md:text-left md:px-10">
+      <div className="relative z-0 mx-auto flex h-full max-w-6xl flex-col items-center justify-center px-6 text-center md:items-start md:text-left md:px-10">
         <h1 className="text-white font-extrabold leading-tight text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
           FUTURE-READY,
           <span className="block">SMART BANKINGS</span>

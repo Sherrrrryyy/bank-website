@@ -29,8 +29,8 @@ const WhyBank = () => {
 
   return (
     <>
-      <div className="flex w-full pt-30">
-        <div className="w-1/2 h-auto bg-gray-300 px-15 pt-30">
+      <div className="flex flex-col md:flex-row w-full pt-30">
+        <div className="w-full md:w-1/2 h-auto bg-gray-300 px-15 pt-30">
           <h1 className="font-bold text-xl pb-5">WHY LUMINU?</h1>
           <h1 className="font-bold text-4xl pb-50">
             Your Privacy is our priority
@@ -56,7 +56,7 @@ const WhyBank = () => {
             })}
           </div>
         </div>
-        <div>
+        <div className="w-full md:w-1/2">
           <Image className="h-full" src={Why} alt="WHY" />
         </div>
       </div>

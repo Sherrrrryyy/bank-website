@@ -29,11 +29,11 @@ const FooterPolicy = [{
   return (
     <footer className="w-full h-full bg-black rounded-t-2xl sticky z-0">
       <div className="px-10 p-25">
-        <h1 className="text-9xl font-bold text-white">
+        <h1 className="text-4xl md:text-9xl font-bold text-white text-center md:text-left">
           <a href="/">LUMINU</a>
         </h1>
       </div>
-      <div className="grid grid-cols-4 gap-10 px-10 pb-10">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 px-10 pb-10">
         <div className="p-10 text-white">
           <h2 className="font-bold text-xl pb-5">Quick Links</h2>
           <ul className="space-y-2">
@@ -105,9 +105,9 @@ const FooterPolicy = [{
           <p className="px-5 font-semibold">Email</p>
           <input
             type="text"
-            className="border-b-1 border-white w-96 pt-5 appearance-none bg-transparent focus:outline-none"
+            className="border-b-1 border-white w-full md:w-96 pt-5 appearance-none bg-transparent focus:outline-none"
           />
-          <div className="w-full pt-15 flex gap-5 pb-15">
+          <div className="w-full pt-15 flex flex-col md:flex-row gap-5 items-start md:items-center pb-15">
             <input
               type="checkbox"
               placeholder="Yes, subscribe me to your newsletter"
