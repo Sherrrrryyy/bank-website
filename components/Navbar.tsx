@@ -3,7 +3,7 @@ import Button from '../components/Button'
 
 const Navbar = () => {
   return (
- <nav className='fixed top-0 left-0 right-0 z-10 bg-white/30 backdrop-blur-md shadow-md p-3 flex items-center justify-between'>
+ <nav className='fixed top-0 left-0 right-0 z-10 bg-gray-600 backdrop-blur-md shadow-md p-3 flex items-center justify-between'>
 
     <div className='flex gap-20'>
         <h1 className='font-bold text-2xl'>LUMINU</h1>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Why from '../public/Why.jpg'
+import Why from "../public/Why.jpg";
 
 type AboutPoints = {
   number: string;
@@ -40,19 +40,21 @@ const WhyBank = () => {
             describe the types of services offered and highlight any special
             benefits or features.
           </p>
-        <div>
-          {points.map((point, index) => {
-            return (
-              <div key={index} className="flex flex-col pb-15">
-                <div className="flex items-center">
-                  <span className="text-4xl font-bold mr-5">{point.number}</span>
-                  <h2 className="font-bold text-xl">{point.title}</h2>
+          <div>
+            {points.map((point, index) => {
+              return (
+                <div key={index} className="flex flex-col pb-15">
+                  <div className="flex items-center">
+                    <span className="text-4xl font-bold mr-5">
+                      {point.number}
+                    </span>
+                    <h2 className="font-bold text-xl">{point.title}</h2>
+                  </div>
+                  <p className="text-lg py-5">{point.para}</p>
                 </div>
-                <p className="text-lg py-5">{point.para}</p>
-              </div>
-            );
-          })}
-        </div>
+              );
+            })}
+          </div>
         </div>
         <div>
           <Image className="h-full" src={Why} alt="WHY" />

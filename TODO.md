@@ -1,0 +1,7 @@
+- [ ] Remove unused import from Footer.tsx
+- [ ] Update layout to grid with 4 columns for sections
+- [ ] Add JSX for Social section using map
+- [ ] Add JSX for Contact section using map
+- [ ] Add JSX for Policy section using map
+- [ ] Make all links clickable with <a> tags
+- [ ] Adjust styling for better appearance
